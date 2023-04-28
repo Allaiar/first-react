@@ -37,6 +37,7 @@
           background: $green;
           border: none;
           @include text(500, 14px, 18.23px, #fff);
+          cursor: pointer;
         }
         &-button1 {
           width: 143px;
@@ -47,6 +48,7 @@
           border: 1px solid #fff;
           background: transparent;
           @include text(500, 14px, 18.23px, #fff);
+          cursor: pointer;
         }
       }
     }
@@ -71,6 +73,7 @@
       display: flex;
       margin-top: 38px;
       gap: 144px;
+      margin-bottom: 50px;
       &-wrap {
         display: flex;
         align-items: center;
@@ -82,6 +85,7 @@
           background-color: #27ae60;
           border-radius: 50%;
           border: 15px solid #212121;
+          cursor: pointer;
         }
         &-title {
           margin-top: 18px;
@@ -92,6 +96,23 @@
           @include text(400, 18px, 23.44px, #fff);
         }
       }
+    }
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212121;
+    padding: 20px 0;
+    &__p{
+      @include text(400, 18px, 23.44px, #fff);
+      background: #212121;
+      width: 170px;
+    }
+    &__p:hover{
+      @include text(500, 19px, 23.44px, #9b9797);
+      cursor: pointer;
+      margin-left: -5px;
     }
   }
   

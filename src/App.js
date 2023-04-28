@@ -40,28 +40,33 @@ function App() {
           <div class="section__records">
             <div class="section__records-wrap">
               <div class="section__records-wrap-record"></div>
-              <p class="section__records-wrap-title">Full Names</p>
-              <p class="section__records-wrap-text">Your name goes here</p>
+              <a href='#' class="section__records-wrap-title">Full Names</a>
+              <a href='#' class="section__records-wrap-text">Your name goes here</a>
             </div>
             <div class="section__records-wrap">
               <div class="section__records-wrap-record"></div>
-              <p class="section__records-wrap-title">Email Address</p>
-              <p class="section__records-wrap-text">Your email goes here</p>
+              <a href='#' class="section__records-wrap-title">Email Address</a>
+              <a href='#' class="section__records-wrap-text">Your email goes here</a>
             </div>
             <div class="section__records-wrap">
               <div class="section__records-wrap-record"></div>
-              <p class="section__records-wrap-title">Twitter</p>
-              <p class="section__records-wrap-text">Your email goes here</p>
+              <a href='#' class="section__records-wrap-title">Twitter</a>
+              <a href='#' class="section__records-wrap-text">Your email goes here</a>
             </div>
             <div class="section__records-wrap">
               <div class="section__records-wrap-record"></div>
-              <p class="section__records-wrap-title">phone</p>
-              <p class="section__records-wrap-text">Your name goes here</p>
+              <a href='#' class="section__records-wrap-title">phone</a>
+              <a href='#' class="section__records-wrap-text">Your name goes here</a>
             </div>
           </div>
         </div>
       </div>
     </header>
+    <footer className='footer'>
+      <p className='footer__p'>
+        Раджапов Аллаяр
+        </p>
+    </footer>
   </div>
   );
 }
