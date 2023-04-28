@@ -105,6 +105,7 @@
     background: #212121;
     padding: 20px 0;
     &__p{
+      text-align: center;
       @include text(400, 18px, 23.44px, #fff);
       background: #212121;
       width: 170px;
