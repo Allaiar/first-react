@@ -3,6 +3,7 @@
 
   &__logo {
     @include text(700, 36px, 47px, #fff);
+    margin-left: 20px;
   }
 
   &__nav {
@@ -13,6 +14,7 @@
   &__links {
     display: flex;
     gap: 40px;
+    margin-right: 20px;
     &-link {
       @include text(400, 18px, 23.44px, #fff);
     }
@@ -23,8 +25,10 @@
     align-items: center;
     margin-top: 124px;
     &-left {
+      margin-left: 20px;
       &-text {
         @include text(700, 48px, 62.5px, #fff);
+        width: 400px;
       }
       &-subtext {
         margin-top: 9px;
@@ -144,7 +148,7 @@
       }
       &-right {
         img {
-          width: 420px;
+          width: 270px;
         }
       }
     }
@@ -162,6 +166,9 @@
     }
     &__records {
       gap: 44px;
+      a{
+        font-size: 15px;
+      }
     }
   }
 }
