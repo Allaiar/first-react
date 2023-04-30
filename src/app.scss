@@ -2,8 +2,8 @@
   padding: 20px 0 0 0;
 
   &__logo {
-    @include text(700, 36px, 47px, #fff);
-    margin-left: 20px;
+    @include text(700, 2.2vw, 2.5rem, #fff);
+    margin-left: 1.2vw;
   }
 
   &__nav {
@@ -13,46 +13,51 @@
   }
   &__links {
     display: flex;
-    gap: 40px;
-    margin-right: 20px;
+    gap: 2.5vw;
+    margin-right: 1.3vw;
     &-link {
-      @include text(400, 18px, 23.44px, #fff);
+      @include text(400, 1.8vmax, 1rem, #fff);
     }
   }
   &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 124px;
+    margin-top: 13vh;
     &-left {
-      margin-left: 20px;
+      margin-left: 1.2vw;
       &-text {
-        @include text(700, 48px, 62.5px, #fff);
-        width: 400px;
+        @include text(700, 4vmax, 4.8vw, #fff);
+        width: 45vmax;
       }
       &-subtext {
         margin-top: 9px;
-        @include text(500, 18px, 23.44px, #828282);
+        @include text(500, 1.5vmax, 1.5rem, #828282);
       }
       &-button {
-        width: 143px;
-        height: 42px;
+        width: 20vmin;
+        height: 2.6rem;
         border-radius: 2px;
         background: $green;
         border: none;
-        @include text(500, 14px, 18.23px, #fff);
+        @include text(500, 0.85rem, 1.1rem, #fff);
         cursor: pointer;
       }
       &-button1 {
-        width: 143px;
-        height: 42px;
-        margin-top: 35px;
-        margin-left: 20px;
-        border-radius: 2px;
-        border: 1px solid #fff;
+        width: 20vmin;
+        height: 2.6rem;
+        margin-top: 3rem;
+        margin-left: 1.25rem;
+        border-radius: 0.2rem;
+        border: 0.01rem solid #fff;
         background: transparent;
-        @include text(500, 14px, 18.23px, #fff);
+        @include text(500, 0.85rem, 1.1rem, #fff);
         cursor: pointer;
+      }
+    }
+    &-right{
+      img{
+        width: 34.5vmax;
       }
     }
   }
@@ -61,23 +66,23 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 47px;
+  margin-top: 5vmin;
   &__texts {
     text-align: center;
     &-title {
-      @include text(700, 48px, 62.5px, #fff);
+      @include text(700, 3vmax, 5rem, #fff);
     }
     &-text {
-      margin-top: 38px;
-      width: 745px;
-      @include text(400, 18px, 23.44px, #fff);
+      margin-top: 1vh;
+      width: 70vmax;
+      @include text(400, 1.7vmax, 2.4vw, #fff);
     }
   }
   &__records {
     display: flex;
-    margin-top: 38px;
-    gap: 144px;
-    margin-bottom: 50px;
+    margin-top: 16.4vh;
+    gap: 15vw;
+    margin-bottom: 6vmax;
     &-wrap {
       display: flex;
       align-items: center;
@@ -92,12 +97,12 @@
         cursor: pointer;
       }
       &-title {
-        margin-top: 18px;
-        @include text(700, 18px, 23.44px, #fff);
+        margin-top: 1vw;
+        @include text(700, 1.3vmax, 2rem, #fff);
       }
       &-text {
-        margin-top: 3px;
-        @include text(400, 18px, 23.44px, #fff);
+        margin-top: 0.4vh;
+        @include text(400, 1.1vmax, 1rem, #fff);
       }
     }
   }
@@ -107,68 +112,62 @@
   justify-content: center;
   align-items: center;
   background: #212121;
-  padding: 20px 0;
+  padding: 1.7vmax 0;
   &__p {
-    @include text(400, 18px, 23.44px, #fff);
-    background: #212121;
-    width: 170px;
+    @include text(400, 1.9vmax, 23.44px, #fff);
+    background: #201c1c;
     &:hover {
-      @include text(400, 18px, 23.44px, #9b9797);
+      @include text(400, 1.99vmax, 23.44px, #9b9797);
       cursor: pointer;
       margin-left: -5px;
       text-shadow: rgb(243, 251, 251) 1.5px 0;
-      transition: 0.1s;
+      transition: 0.07s;
     }
   }
 }
-@media (max-width: 957px) {
-  .header {
-    nav {
-      a {
-        font-size: 30px;
-      }
-      ul {
-        a {
-          @include text(400, 16px, 23.44px, #fff);
-        }
-      }
-    }
-    &__wrapper {
-      &-left {
-        &-text {
-          font-size: 38px;
-        }
-        > p {
-          font-size: 15px;
-        }
-        button {
-          width: 123px;
-          height: 32px;
-        }
-      }
-      &-right {
-        img {
-          width: 270px;
-        }
-      }
-    }
-  }
-  .section {
-    &__texts {
-      &-title {
-        font-size: 30px;
-      }
-      &-text {
-        margin-top: 10px;
-        font-size: 15px;
-        width: 560px;
-      }
-    }
-    &__records {
-      gap: 44px;
-      a{
-        font-size: 15px;
-      }
-    }
-  }
-}
+// @media (max-width: 957px) {
+//   .header {
+//     nav {
+//       a {
+//         font-size: 30px;
+//       }
+//       ul {
+//         a {
+//           @include text(400, 16px, 23.44px, #fff);
+//         }
+//       }
+//     }
+//     &__wrapper {
+//       &-left {
+//         &-text {
+//           font-size: 38px;
+//         }
+//         > p {
+//           font-size: 15px;
+//         }
+//         button {
+//           width: 123px;
+//           height: 32px;
+//         }
+//       }
+//     }
+//   }
+//   .section {
+//     &__texts {
+//       &-title {
+//         font-size: 30px;
+//       }
+//       &-text {
+//         margin-top: 10px;
+//         font-size: 15px;
+//         width: 560px;
+//       }
+//     }
+//     &__records {
+//       gap: 44px;
+//       a {
+//         font-size: 15px;
+//       }
+//     }
+//   }
+// }
