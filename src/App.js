@@ -10,8 +10,8 @@ function App() {
         <div className="container">
           <Swiper />
           {/*здесь вызываем компанент swiper и даем ему ключ name*/}
-          <Swiper2 name="Аллаяр" />
         </div>
+          <Swiper2 name="Аллаяр" />
       </header>
     </div>
   );

@@ -31,9 +31,11 @@ export default function Swiper(props) {
           </nav>
           <div className="header__wrapper">
             <div className="header__wrapper-left">
+              <div>
               <p className="header__wrapper-left-text">
                 Hi, I am Oyindamola Bakare
               </p>
+              </div>
               <p className="header__wrapper-left-subtext">Frontend Developer</p>
               <button className="header__wrapper-left-button">
                 Download CV
