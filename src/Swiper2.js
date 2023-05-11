@@ -4,7 +4,7 @@ export default function Swiper2(props) {
   return (
     <div>
       <footer className="footer">
-        <p className="footer__p">Раджапов {props.name}</p>
+        <p className="footer__p">© Radzhapov Allaiar {props.data}</p>
       </footer>
     </div>
   );

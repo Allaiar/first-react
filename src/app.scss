@@ -55,8 +55,8 @@
         cursor: pointer;
       }
     }
-    &-right{
-      img{
+    &-right {
+      img {
         width: 34.5vmax;
       }
     }
@@ -114,17 +114,45 @@
   background: #212121;
   padding: 1.7vmax 0;
   &__p {
-    @include text(400, 1.9vmax, 23.44px, #fff);
-    background: #201c1c;
+    @include text(500, 1vmax, 18.44px, #4f4f4f);
+    background: #212121;
     &:hover {
-      @include text(400, 1.99vmax, 23.44px, #9b9797);
+      @include text(500, 1.1vmax, 18.44px, #4f4f4f);
       cursor: pointer;
       margin-left: -5px;
-      text-shadow: rgb(243, 251, 251) 1.5px 0;
+      text-shadow: rgb(95, 96, 96) 1.5px 0;
       transition: 0.07s;
     }
   }
 }
+.section2 {
+  &__header {
+  }
+
+  &__title {
+    margin-bottom: 100px;
+  }
+
+  &__row {
+  }
+
+  &__column {
+  }
+}
+.title {
+  text-align: center;
+  @include text(700, 48px, 62px, #fff)
+}
+.item-section {
+}
+.item-section2 {
+  &__icon {
+  }
+
+  &__text {
+  }
+}
+
 // @media (max-width: 957px) {
 //   .header {
 //     nav {
